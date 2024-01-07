@@ -10,6 +10,7 @@
 }
 
 .body {
+    width: 80%;
     font-family: "Inter", sans-serif;
 }
 
@@ -27,7 +28,7 @@ h1,h2,h3,h4,h5,h6 {
     background-size: cover;
     border-radius: 16px;
     text-align: center;
-    padding: 90px 0px;
+    padding: 100px 0px;
 
     & h2 {
         color: #fff;
@@ -45,3 +46,43 @@ h1,h2,h3,h4,h5,h6 {
         margin: 0px 0px 40px;
     }
 }
+/* header end */
+
+/* banner1 start */
+.banner1 {
+    margin: 10px auto;
+    text-align: center;
+    padding: 100px 0px;
+
+    & h2 {
+        font-family: Inter;
+        color: #F00;
+        font-size: 60px;
+        font-weight: 700;
+        margin: 40px 0px 25px;
+        letter-spacing: 0.5px;
+    }
+
+    & h5 {
+        font-family: Inter;
+        color: #F00;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    & h3{
+        font-family: Inter;
+        color: #070211;
+        font-size: 40px;
+        font-weight: 700;
+        margin: 10px 0px 30px;
+    }
+    & img {
+        width: 45%;
+        margin: 20px auto;
+        transition:all 0.5s ease-in-out;
+    }
+    & img:hover {
+        transform: scale(1.05);
+    }
+}
+/* banner1 end */
