@@ -15,6 +15,7 @@ a, a:hover{
 .body {
     width: 80%;
     font-family: "Inter", sans-serif;
+    overflow: hidden;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -193,3 +194,72 @@ h1,h2,h3,h4,h5,h6 {
         margin: 0px 0px 40px;
     }
 }
+/* banner3 end */
+
+/* banner4 start */
+.banner4{
+    width: 80%;
+    padding: 20px 0px 80px;
+    margin: 20px auto;
+
+    & .inner-banner4{
+        display: flex;
+        align-items: center;
+    }
+
+    & .banner4-box{
+        display: flex;
+        flex-basis: 33%;
+        margin: 0px 10px 0px;
+        border-radius: 5px;
+        padding: 0px 1px;
+    }
+    
+
+    & h5{
+        font-family: Inter;
+        color: #F00;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    & .img-box{
+        width: 90%;
+        padding: 20px;
+        margin: 0px 15px;
+        border: 10px solid red;
+        border-radius: 100%;
+    }
+    & .img-box img{
+        width: 100%;
+        border-radius: 100%;
+        transition:all 0.5s ease-in-out;
+    }
+    & .img-box:hover img{
+        rotate:calc(360deg + 360deg);
+        transform: scale(1.1);
+    }
+    & h3{
+        color: #F00;
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    & h4{
+        font-size: 28px;
+        color: #070211;
+        font-weight: 900;
+        line-height: 1.2em ;
+        margin: 5px 0px 15px;
+        text-transform: capitalize;
+    }
+    & p{
+        font-size: 12px;
+        line-height: 20px;
+        color: rgba(7, 2, 17, 0.60);
+        margin: 0px 10px 10px 0px;
+    }
+}
+/* banner4 end */
