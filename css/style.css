@@ -12,6 +12,10 @@ a, a:hover{
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+}
+
 .body {
     width: 80%;
     font-family: "Inter", sans-serif;
@@ -66,7 +70,7 @@ h1,h2,h3,h4,h5,h6 {
         font-size: 50px;
         font-weight: 900;
         line-height: 65px;
-        letter-spacing: 0.5px;
+        letter-spacing: 1.5px;
         margin: 0px 0px 40px;
     }
 }
@@ -262,6 +266,9 @@ h1,h2,h3,h4,h5,h6 {
         margin: 0px 10px 10px 0px;
     }
 }
+.banner4:hover .ny{
+    transform: rotate(10deg);
+}
 /* banner4 end */
 
 /* banner5 start */
@@ -437,6 +444,7 @@ h1,h2,h3,h4,h5,h6 {
 
     & img{
         width: 80px;
+        transition: all 0.5s;
     }
     & input {
         width: 29%;
@@ -457,4 +465,84 @@ h1,h2,h3,h4,h5,h6 {
         margin: 0px 0px 20px 0px;
     }
 }
+.banner7:hover img{
+    transform: scale(1.1);
+}
 /* banner7 end */
+
+/* footer start */
+
+
+.footer{
+    width: 100%;
+    margin: 60px auto 0px;
+    background: #070211;
+    color: #FFF;
+    text-align: center;
+    padding: 80px 0px 40px;
+    line-height: 1.7em;
+    transition:all .75s ease-in-out; 
+
+    & .footer1 , .footer3{
+        width: 80%;
+        margin: 0px auto 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: left;
+
+        & .box2 img{
+            width: 15px;
+            margin: 0px 5px;
+            padding-top: 1px;
+        }
+    }
+    & .footer3{
+        margin: 40px auto 0px;
+    }
+    & p{
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        line-height: 26px;
+    }
+    & a{
+        color: #FFF;
+    }
+    & hr{
+        width: 80%;
+        background: rgba(255, 255, 255, 0.15);
+        color: #eee;
+        margin: 30px auto;
+    }
+    & img{
+        width: 55px;
+        margin: 10px 10px;
+    }
+    & img:hover{
+        transform: scale(1.1);
+    }
+}
+
+/* footer end */
+
+/* top bar start */
+.top {
+    padding: 1px;
+    width: 45px;
+    height: 45px;
+    border-radius: 20%;
+    position: fixed;
+    top: 86%;
+    right: 0%;
+    background-color: #F00;
+    border-radius: 8px;
+    transition: 1s;
+}
+.top:hover {
+    right: 5px;
+    cursor: pointer;
+    background: #F00;
+    border-radius: 50%;
+}
+/* top bar end */
