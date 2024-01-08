@@ -305,3 +305,105 @@ h1,h2,h3,h4,h5,h6 {
     }
 }
 /* banner5 end */
+
+/* banner6 start */
+.banner6{
+    width: 80%;
+    padding: 40px 0px 80px;
+    margin: 20px auto;
+
+    & .inner-banner6{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    & .banner6-box{
+        width: 32%;
+        margin: 0px 10px 15px 0px;
+        border-radius: 5px;
+    }
+    
+
+    & h5{
+        font-family: Inter;
+        color: #F00;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    & .img-box{
+        flex-basis: 32%;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        position: relative;
+        overflow: hidden;
+        box-sizing: border-box;
+        transition: all 0.5s;
+        margin: 0px 5px;
+    }
+    & .img-box img{
+        width: 100%;
+        transition:all 0.5s ease-in-out;
+    }
+
+    & .layer:hover {
+        border-radius: 10px;
+        margin-bottom: 30px;
+        transform: translateX(-2px) translateY(-5px);
+        background: rgba(226,0,0,0.7);
+    }
+    & .layer {
+        background: transparent;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: all 0.5s;
+    }
+    & .layer h3 span {
+        font-size: 14px;
+    }
+    & .layer:hover h3, span {
+        bottom: 40%;
+        opacity: 1;
+    }
+    & .layer h3 {
+        width: 100%;
+        font-size: 24px;
+        font-weight: 500;
+        color: #fff;
+        bottom: 0;
+        left: 60%;
+        transform: translateX(-50%);
+        position: absolute;
+        opacity: 0;
+        transition: 0.5s;
+    }
+    & .img-box:hover img{
+        transform: translateX(-2px) translateY(-5px);
+    }
+    & h3{
+        color: #F00;
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    & h4{
+        font-size: 40px;
+        color: #070211;
+        font-weight: 900;
+        line-height: 1.2em ;
+        margin: 15px 0px 20px;
+        text-transform: capitalize;
+    }
+    & p{
+        font-size: 16px;
+        line-height: 26px;
+        color: rgba(7, 2, 17, 0.60);
+        margin: 0px 10px 60px 0px;
+    }
+}
+/* banner6 end */
